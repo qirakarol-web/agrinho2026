@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoVida | Sustentabilidade e Futuro</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="logo">
+            <i class="fa-solid fa-leaf"></i> <span>EcoVida</span>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home">Início</a></li>
+                <li><a href="#sobre">Sobre Nós</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+        <div class="nav-toggle" id="navToggle">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </header>
+
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+            <h1>Preservar a Natureza é Garantir o Nosso Futuro</h1>
+            <p>Apoiamos e desenvolvemos projetos focados em energia renovável, reflorestamento e consumo consciente. Junte-se a nós nessa mudança!</p>
+            <a href="#projetos" class="btn-primary">Conheça Nossos Projetos</a>
+        </div>
+    </section>
+
+    <section id="sobre" class="about-section">
+        <div class="container">
+            <h2>Nossa Missão</h2>
+            <p>Somos uma organização dedicada a mitigar os impactos das mudanças climáticas através de ações práticas e conscientização global. Acreditamos que pequenos hábitos geram grandes transformações.</p>
+            
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <h3>+10k</h3>
+                    <p>Árvores Plantadas</p>
+                </div>
+                <div class="stat-card">
+                    <h3>50 MWh</h3>
+                    <p>Energia Limpa Gerada</p>
+                </div>
+                <div class="stat-card">
+                    <h3>+5k</h3>
+                    <p>Voluntários Ativos</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projetos" class="projects-section">
+        <div class="container">
+            <h2>Projetos em Destaque</h2>
+            <div class="projects-grid">
+                
+                <div class="project-card">
+                    <div class="project-image image-1"></div>
+                    <div class="project-info">
+                        <h3>Energia Solar Comunitária</h3>
+                        <p>Instalação de painéis solares em comunidades de baixa renda, reduzindo custos e poluentes.</p>
+                        <button class="btn-secondary learn-more">Saber Mais</button>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image image-2"></div>
+                    <div class="project-info">
+                        <h3>Reflorestamento Urbano</h3>
+                        <p>Resgate de áreas verdes nas grandes cidades, promovendo biodiversidade e purificação do ar.</p>
+                        <button class="btn-secondary learn-more">Saber Mais</button>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image image-3"></div>
+                    <div class="project-info">
+                        <h3>Zero Plástico</h3>
+                        <p>Campanhas de conscientização e mutirões de limpeza em praias, rios e parques locais.</p>
+                        <button class="btn-secondary learn-more">Saber Mais</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="contact-section">
+        <div class="container">
+            <h2>Faça Parte da Mudança</h2>
+            <p>Entre em contato conosco para se tornar um voluntário, parceiro ou tirar dúvidas.</p>
+            
+            <form id="contactForm" class="contact-form">
+                <div class="form-group">
+                    <input type="text" id="name" placeholder="Seu Nome" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" placeholder="Seu E-mail" required>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" rows="5" placeholder="Sua Mensagem" required></textarea>
+                </div>
+                <button type="submit" class="btn-submit">Enviar Mensagem</button>
+            </form>
+            <div id="formResponse" class="form-response hidden"></div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 EcoVida. Desenvolvido com foco no meio ambiente.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
